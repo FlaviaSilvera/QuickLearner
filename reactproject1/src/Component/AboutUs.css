@@ -42,3 +42,25 @@
     max-width: 400px;
     text-align: justify;
 }
+
+
+
+.mainPage {
+    display: flex; /* Creates the side-by-side layout */
+    
+    background-image: url('./image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.left-part, .right-part {
+    flex: 1; /* Each takes up 50% width */
+    padding: 20px;
+    font-size:20px;
+   
+}
+
+.right-part {
+    margin-top: 150px
+}
